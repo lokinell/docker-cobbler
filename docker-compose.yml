@@ -1,6 +1,6 @@
 cobbler:
   image: jasonlix/docker-cobbler
   volumes:
-    - /mnt:/mnt:ro
+    - /Users/admin/Work/docker-cobbler/mnt:/mnt:ro
   env_file: cobbler.env
   net: "host"
